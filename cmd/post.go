@@ -23,7 +23,7 @@ type Msg struct {
 var postCmd = &cobra.Command{
 	Use:   "post",
 	Short: "POST request to a URL",
-	Long: `Makes a GET request to a provided URL.
+	Long: `Makes a POST request to a provided URL.
 Use the --message or -m flag to specify the message.`,
 	Args: cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
