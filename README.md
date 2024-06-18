@@ -55,9 +55,9 @@ go mod tidy
 Build the binary or run directly
 - To make a get request
 ```
-go run main.go get http://localhost:8080
+go run main.go get http://localhost:8080/get
 ```
 - To make a post request
 ```
-go run main.go post -m=abcd
+go run main.go post https://localhost:8080/post -m=abcd
 ```
